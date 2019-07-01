@@ -1,5 +1,5 @@
 #coding: utf-8
-from ru2.examples import sentences
+from spacy.lang.ru.examples import sentences
 
 ss = ['Ты кто такой?', 'Давай досвидания!']
 for s in sentences:

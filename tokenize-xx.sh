@@ -1,1 +1,1 @@
-.venv/bin/python -m examples.tokenize.tokenizer_xx
+.venv/bin/python -m examples.tokenizer_xx

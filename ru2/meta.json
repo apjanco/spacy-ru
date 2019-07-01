@@ -1,22 +1,30 @@
 {
   "lang":"ru",
-  "name":"UD_SynTagRus",
-  "version":"0.2.0",
-  "spacy_version":">=2.0.12",
-  "description":"",
-  "author":"",
-  "email":"",
-  "url":"https://github.com/UniversalDependencies/UD_Russian-SynTagRus",
-  "license":"CC BY-NC-SA 4.0",
+  "pipeline":[
+    "tagger",
+    "parser"
+  ],
+  "spacy_version":">=2.1.4",
+  "speed":{
+    "nwords":117329,
+    "cpu":12911.7757572394,
+    "gpu":18248.1334732979
+  },
+  "accuracy":{
+    "uas":90.5407659113,
+    "las":87.0114031979,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_f":0.0,
+    "tags_acc":93.370777898,
+    "token_acc":100.0
+  },
   "vectors":{
     "width":0,
     "vectors":0,
     "keys":0,
     "name":"spacy_pretrained_vectors"
   },
-  "pipeline":[
-    "tagger",
-    "parser",
-    "ner"
-  ]
+  "name":"model0",
+  "version":"0.0.0"
 }

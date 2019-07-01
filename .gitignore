@@ -5,6 +5,7 @@
 *.pyc
 __pycache__
 pyproject.lock
+poetry.lock
 .ipynb_checkpoints
 
 # idea
